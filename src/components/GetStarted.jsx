@@ -2,10 +2,9 @@ import React from "react";
 import styles from "../style";
 import { arrowUp } from "../assets";
 
-// Make the get started button grow on hover
 const GetStarted = () => (
   <div
-    className={`${styles.flexCenter} w-[140px] h-[140px] rounded-full bg-blue-gradient p-[2px] cursor-pointer`}
+    className={`${styles.flexCenter} ${styles.grow} w-[140px] h-[140px] rounded-full bg-blue-gradient p-[2px] cursor-pointer`}
   >
     <div
       className={`${styles.flexCenter} flex-col bg-primary w-[100%] h-[100%] rounded-full`}
